@@ -7,3 +7,10 @@ export type UserType = {
 export type CategoryType = {
   name: string;
 };
+
+export type ProductType = {
+  name: string;
+  description: string;
+  price: number;
+  categoryId: string;
+};
