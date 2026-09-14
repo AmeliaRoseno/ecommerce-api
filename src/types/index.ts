@@ -14,3 +14,14 @@ export type ProductType = {
   price: number;
   categoryId: string;
 };
+
+export type OrderProductType = {
+  productId: string;
+  quantity: number;
+};
+
+export type OrderType = {
+  userId: string;
+  products: OrderProductType[];
+  total: number;
+};
